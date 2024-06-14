@@ -1,1 +1,1 @@
-# PAB_Library
+Skład grupy: Michał Świderek, Jakub Radłowski
