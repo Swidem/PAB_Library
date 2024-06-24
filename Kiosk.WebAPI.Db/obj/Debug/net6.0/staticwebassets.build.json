@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "fwqH8HwCpuTembtWQoo9qMBou+5u5tG5K24H7b+0HP0=",
+  "Source": "Kiosk.WebAPI.Db",
+  "BasePath": "_content/Kiosk.WebAPI.Db",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

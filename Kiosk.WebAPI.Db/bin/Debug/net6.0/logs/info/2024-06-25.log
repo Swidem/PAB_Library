@@ -1,0 +1,4 @@
+2024-06-25 00:55:28.3332|DEBUG|Kiosk.WebAPI.Db.Program|init main
+2024-06-25 00:55:48.7133|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect.
+2024-06-25 00:55:49.0553|DEBUG|Kiosk.WebAPI.Db.Controllers.BookController|Rozpoczęto pobieranie listy wszystkich książek
+2024-06-25 00:55:49.2128|DEBUG|Kiosk.WebAPI.Db.Controllers.BookController|Zakończono pobieranie listy wszystkich książek

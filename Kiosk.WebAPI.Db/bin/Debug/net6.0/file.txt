@@ -1,0 +1,513 @@
+2024-06-25 00:41:05.8693|DEBUG|Kiosk.WebAPI.Db.Program|init main
+2024-06-25 00:41:09.0018|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-06-25 00:41:10.9407|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 7.0.17 initialized 'LibraryDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:7.0.17' with options: None
+2024-06-25 00:41:11.0590|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Creating DbConnection.
+2024-06-25 00:41:11.0786|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Created DbConnection. (16ms).
+2024-06-25 00:41:11.0912|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'main' on server 'Kiosk.WebAPI.db'.
+2024-06-25 00:41:11.1252|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'main' on server 'C:\Users\jswiderek\Desktop\projekt pab\Kiosk.WebAPI.Db\Kiosk.WebAPI.db'.
+2024-06-25 00:41:11.1375|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposing connection to database 'main' on server 'Kiosk.WebAPI.db'.
+2024-06-25 00:41:11.1375|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposed connection to database 'main' on server 'Kiosk.WebAPI.db' (2ms).
+2024-06-25 00:41:11.1375|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Creating DbConnection.
+2024-06-25 00:41:11.1375|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Created DbConnection. (0ms).
+2024-06-25 00:41:11.1375|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'main' on server 'Kiosk.WebAPI.db'.
+2024-06-25 00:41:11.1514|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'main' on server 'C:\Users\jswiderek\Desktop\projekt pab\Kiosk.WebAPI.Db\Kiosk.WebAPI.db'.
+2024-06-25 00:41:11.1514|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'main' on server 'C:\Users\jswiderek\Desktop\projekt pab\Kiosk.WebAPI.Db\Kiosk.WebAPI.db'.
+2024-06-25 00:41:11.1514|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'main' on server 'Kiosk.WebAPI.db' (5ms).
+2024-06-25 00:41:11.1678|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Creating DbConnection.
+2024-06-25 00:41:11.1678|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Created DbConnection. (0ms).
+2024-06-25 00:41:11.1678|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'main' on server 'Kiosk.WebAPI.db'.
+2024-06-25 00:41:11.1678|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|An error occurred using the connection to database 'main' on server 'Kiosk.WebAPI.db'.
+2024-06-25 00:41:11.1797|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposing connection to database 'main' on server 'Kiosk.WebAPI.db'.
+2024-06-25 00:41:11.1797|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposed connection to database 'main' on server 'Kiosk.WebAPI.db' (0ms).
+2024-06-25 00:41:11.1797|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'main' on server 'Kiosk.WebAPI.db'.
+2024-06-25 00:41:11.1797|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'main' on server 'C:\Users\jswiderek\Desktop\projekt pab\Kiosk.WebAPI.Db\Kiosk.WebAPI.db'.
+2024-06-25 00:41:11.1961|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteNonQuery'.
+2024-06-25 00:41:11.1961|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteNonQuery' (10ms).
+2024-06-25 00:41:11.2123|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteNonQuery' (19ms).
+2024-06-25 00:41:11.2270|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+PRAGMA journal_mode = 'wal';
+2024-06-25 00:41:11.2805|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (50ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+PRAGMA journal_mode = 'wal';
+2024-06-25 00:41:11.2906|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'main' on server 'C:\Users\jswiderek\Desktop\projekt pab\Kiosk.WebAPI.Db\Kiosk.WebAPI.db'.
+2024-06-25 00:41:11.2906|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'main' on server 'Kiosk.WebAPI.db' (0ms).
+2024-06-25 00:41:11.4895|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'main' on server 'Kiosk.WebAPI.db'.
+2024-06-25 00:41:11.4895|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'main' on server 'C:\Users\jswiderek\Desktop\projekt pab\Kiosk.WebAPI.Db\Kiosk.WebAPI.db'.
+2024-06-25 00:41:11.4948|DEBUG|Microsoft.EntityFrameworkCore.Database.Transaction|Beginning transaction with isolation level 'Unspecified'.
+2024-06-25 00:41:11.5175|DEBUG|Microsoft.EntityFrameworkCore.Database.Transaction|Began transaction with isolation level 'Serializable'.
+2024-06-25 00:41:11.5175|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteNonQuery'.
+2024-06-25 00:41:11.5175|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-06-25 00:41:11.5175|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-06-25 00:41:11.5175|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE "Books" (
+    "BookId" INTEGER NOT NULL CONSTRAINT "PK_Books" PRIMARY KEY AUTOINCREMENT,
+    "Title" TEXT NOT NULL,
+    "Author" TEXT NOT NULL,
+    "ISBN" TEXT NOT NULL,
+    "StatusOfBook" INTEGER NOT NULL
+);
+2024-06-25 00:41:11.5175|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE "Books" (
+    "BookId" INTEGER NOT NULL CONSTRAINT "PK_Books" PRIMARY KEY AUTOINCREMENT,
+    "Title" TEXT NOT NULL,
+    "Author" TEXT NOT NULL,
+    "ISBN" TEXT NOT NULL,
+    "StatusOfBook" INTEGER NOT NULL
+);
+2024-06-25 00:41:11.5175|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteNonQuery'.
+2024-06-25 00:41:11.5175|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-06-25 00:41:11.5175|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-06-25 00:41:11.5175|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE "Clients" (
+    "ClientId" INTEGER NOT NULL CONSTRAINT "PK_Clients" PRIMARY KEY AUTOINCREMENT,
+    "FirstName" TEXT NOT NULL,
+    "LastName" TEXT NOT NULL,
+    "Email" TEXT NOT NULL
+);
+2024-06-25 00:41:11.5175|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE "Clients" (
+    "ClientId" INTEGER NOT NULL CONSTRAINT "PK_Clients" PRIMARY KEY AUTOINCREMENT,
+    "FirstName" TEXT NOT NULL,
+    "LastName" TEXT NOT NULL,
+    "Email" TEXT NOT NULL
+);
+2024-06-25 00:41:11.5175|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteNonQuery'.
+2024-06-25 00:41:11.5175|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-06-25 00:41:11.5175|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-06-25 00:41:11.5175|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE "Employees" (
+    "EmployeeId" INTEGER NOT NULL CONSTRAINT "PK_Employees" PRIMARY KEY AUTOINCREMENT,
+    "FirstName" TEXT NOT NULL,
+    "LastName" TEXT NOT NULL,
+    "Email" TEXT NOT NULL
+);
+2024-06-25 00:41:11.5175|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE "Employees" (
+    "EmployeeId" INTEGER NOT NULL CONSTRAINT "PK_Employees" PRIMARY KEY AUTOINCREMENT,
+    "FirstName" TEXT NOT NULL,
+    "LastName" TEXT NOT NULL,
+    "Email" TEXT NOT NULL
+);
+2024-06-25 00:41:11.5175|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteNonQuery'.
+2024-06-25 00:41:11.5175|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-06-25 00:41:11.5175|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-06-25 00:41:11.5175|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE "Loans" (
+    "LoanId" INTEGER NOT NULL CONSTRAINT "PK_Loans" PRIMARY KEY AUTOINCREMENT,
+    "ClientId" INTEGER NOT NULL,
+    "BookId" INTEGER NOT NULL,
+    "EmployeeId" INTEGER NOT NULL,
+    "LoanDate" TEXT NOT NULL,
+    "DueDate" TEXT NOT NULL,
+    "LoanStatus" INTEGER NOT NULL
+);
+2024-06-25 00:41:11.5175|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE "Loans" (
+    "LoanId" INTEGER NOT NULL CONSTRAINT "PK_Loans" PRIMARY KEY AUTOINCREMENT,
+    "ClientId" INTEGER NOT NULL,
+    "BookId" INTEGER NOT NULL,
+    "EmployeeId" INTEGER NOT NULL,
+    "LoanDate" TEXT NOT NULL,
+    "DueDate" TEXT NOT NULL,
+    "LoanStatus" INTEGER NOT NULL
+);
+2024-06-25 00:41:11.5261|DEBUG|Microsoft.EntityFrameworkCore.Database.Transaction|Committing transaction.
+2024-06-25 00:41:11.5261|DEBUG|Microsoft.EntityFrameworkCore.Database.Transaction|Committed transaction.
+2024-06-25 00:41:11.5381|DEBUG|Microsoft.EntityFrameworkCore.Database.Transaction|Disposing transaction.
+2024-06-25 00:41:11.5381|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'main' on server 'C:\Users\jswiderek\Desktop\projekt pab\Kiosk.WebAPI.Db\Kiosk.WebAPI.db'.
+2024-06-25 00:41:11.5381|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'main' on server 'Kiosk.WebAPI.db' (0ms).
+2024-06-25 00:41:11.5381|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Creating DbConnection.
+2024-06-25 00:41:11.5381|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Created DbConnection. (0ms).
+2024-06-25 00:41:11.5381|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'main' on server 'Kiosk.WebAPI.db'.
+2024-06-25 00:41:11.5381|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'main' on server 'C:\Users\jswiderek\Desktop\projekt pab\Kiosk.WebAPI.Db\Kiosk.WebAPI.db'.
+2024-06-25 00:41:11.5381|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposing connection to database 'main' on server 'Kiosk.WebAPI.db'.
+2024-06-25 00:41:11.5381|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposed connection to database 'main' on server 'Kiosk.WebAPI.db' (0ms).
+2024-06-25 00:41:11.6054|DEBUG|Microsoft.EntityFrameworkCore.Query|Compiling query expression: 
+'DbSet<Book>()
+    .Any()'
+2024-06-25 00:41:12.2785|DEBUG|Microsoft.EntityFrameworkCore.Query|Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<bool>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> 0
+        SELECT EXISTS (
+            SELECT 1
+            FROM Books AS b)), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, bool>, 
+    Kiosk.WebAPI.Persistance.LibraryDbContext, 
+    False, 
+    False, 
+    True
+)
+    .Single()'
+2024-06-25 00:41:12.3454|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'.
+2024-06-25 00:41:12.3454|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (0ms).
+2024-06-25 00:41:12.3454|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-06-25 00:41:12.3454|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'main' on server 'Kiosk.WebAPI.db'.
+2024-06-25 00:41:12.3454|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'main' on server 'C:\Users\jswiderek\Desktop\projekt pab\Kiosk.WebAPI.Db\Kiosk.WebAPI.db'.
+2024-06-25 00:41:12.3454|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Books" AS "b")
+2024-06-25 00:41:12.3454|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Books" AS "b")
+2024-06-25 00:41:12.3678|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Closing data reader to 'main' on server 'C:\Users\jswiderek\Desktop\projekt pab\Kiosk.WebAPI.Db\Kiosk.WebAPI.db'.
+2024-06-25 00:41:12.3678|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader for 'main' on server 'C:\Users\jswiderek\Desktop\projekt pab\Kiosk.WebAPI.Db\Kiosk.WebAPI.db' is being disposed after spending 17ms reading results.
+2024-06-25 00:41:12.3678|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'main' on server 'C:\Users\jswiderek\Desktop\projekt pab\Kiosk.WebAPI.Db\Kiosk.WebAPI.db'.
+2024-06-25 00:41:12.3678|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'main' on server 'Kiosk.WebAPI.db' (0ms).
+2024-06-25 00:41:12.5776|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'LibraryDbContext' started tracking 'Book' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-06-25 00:41:12.5776|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'LibraryDbContext' started tracking 'Book' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-06-25 00:41:12.5776|DEBUG|Microsoft.EntityFrameworkCore.Query|Compiling query expression: 
+'DbSet<Client>()
+    .Any()'
+2024-06-25 00:41:12.5776|DEBUG|Microsoft.EntityFrameworkCore.Query|Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<bool>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> 0
+        SELECT EXISTS (
+            SELECT 1
+            FROM Clients AS c)), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, bool>, 
+    Kiosk.WebAPI.Persistance.LibraryDbContext, 
+    False, 
+    False, 
+    True
+)
+    .Single()'
+2024-06-25 00:41:12.5776|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'.
+2024-06-25 00:41:12.5776|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (0ms).
+2024-06-25 00:41:12.5776|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-06-25 00:41:12.5776|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'main' on server 'Kiosk.WebAPI.db'.
+2024-06-25 00:41:12.5776|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'main' on server 'C:\Users\jswiderek\Desktop\projekt pab\Kiosk.WebAPI.Db\Kiosk.WebAPI.db'.
+2024-06-25 00:41:12.5776|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Clients" AS "c")
+2024-06-25 00:41:12.5776|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Clients" AS "c")
+2024-06-25 00:41:12.5776|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Closing data reader to 'main' on server 'C:\Users\jswiderek\Desktop\projekt pab\Kiosk.WebAPI.Db\Kiosk.WebAPI.db'.
+2024-06-25 00:41:12.5776|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader for 'main' on server 'C:\Users\jswiderek\Desktop\projekt pab\Kiosk.WebAPI.Db\Kiosk.WebAPI.db' is being disposed after spending 0ms reading results.
+2024-06-25 00:41:12.5776|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'main' on server 'C:\Users\jswiderek\Desktop\projekt pab\Kiosk.WebAPI.Db\Kiosk.WebAPI.db'.
+2024-06-25 00:41:12.5776|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'main' on server 'Kiosk.WebAPI.db' (0ms).
+2024-06-25 00:41:12.5943|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'LibraryDbContext' started tracking 'Client' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-06-25 00:41:12.5943|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'LibraryDbContext' started tracking 'Client' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-06-25 00:41:12.5943|DEBUG|Microsoft.EntityFrameworkCore.Query|Compiling query expression: 
+'DbSet<Employee>()
+    .Any()'
+2024-06-25 00:41:12.5943|DEBUG|Microsoft.EntityFrameworkCore.Query|Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<bool>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> 0
+        SELECT EXISTS (
+            SELECT 1
+            FROM Employees AS e)), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, bool>, 
+    Kiosk.WebAPI.Persistance.LibraryDbContext, 
+    False, 
+    False, 
+    True
+)
+    .Single()'
+2024-06-25 00:41:12.5943|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'.
+2024-06-25 00:41:12.5943|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (0ms).
+2024-06-25 00:41:12.5943|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-06-25 00:41:12.5943|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'main' on server 'Kiosk.WebAPI.db'.
+2024-06-25 00:41:12.5943|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'main' on server 'C:\Users\jswiderek\Desktop\projekt pab\Kiosk.WebAPI.Db\Kiosk.WebAPI.db'.
+2024-06-25 00:41:12.5943|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Employees" AS "e")
+2024-06-25 00:41:12.5943|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Employees" AS "e")
+2024-06-25 00:41:12.5943|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Closing data reader to 'main' on server 'C:\Users\jswiderek\Desktop\projekt pab\Kiosk.WebAPI.Db\Kiosk.WebAPI.db'.
+2024-06-25 00:41:12.5943|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader for 'main' on server 'C:\Users\jswiderek\Desktop\projekt pab\Kiosk.WebAPI.Db\Kiosk.WebAPI.db' is being disposed after spending 0ms reading results.
+2024-06-25 00:41:12.5943|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'main' on server 'C:\Users\jswiderek\Desktop\projekt pab\Kiosk.WebAPI.Db\Kiosk.WebAPI.db'.
+2024-06-25 00:41:12.5943|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'main' on server 'Kiosk.WebAPI.db' (0ms).
+2024-06-25 00:41:12.6070|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'LibraryDbContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-06-25 00:41:12.6070|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'LibraryDbContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-06-25 00:41:12.6070|DEBUG|Microsoft.EntityFrameworkCore.Query|Compiling query expression: 
+'DbSet<Loan>()
+    .Any()'
+2024-06-25 00:41:12.6070|DEBUG|Microsoft.EntityFrameworkCore.Query|Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<bool>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> 0
+        SELECT EXISTS (
+            SELECT 1
+            FROM Loans AS l)), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, bool>, 
+    Kiosk.WebAPI.Persistance.LibraryDbContext, 
+    False, 
+    False, 
+    True
+)
+    .Single()'
+2024-06-25 00:41:12.6070|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'.
+2024-06-25 00:41:12.6070|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (0ms).
+2024-06-25 00:41:12.6070|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-06-25 00:41:12.6070|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'main' on server 'Kiosk.WebAPI.db'.
+2024-06-25 00:41:12.6070|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'main' on server 'C:\Users\jswiderek\Desktop\projekt pab\Kiosk.WebAPI.Db\Kiosk.WebAPI.db'.
+2024-06-25 00:41:12.6070|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Loans" AS "l")
+2024-06-25 00:41:12.6070|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Loans" AS "l")
+2024-06-25 00:41:12.6070|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Closing data reader to 'main' on server 'C:\Users\jswiderek\Desktop\projekt pab\Kiosk.WebAPI.Db\Kiosk.WebAPI.db'.
+2024-06-25 00:41:12.6070|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader for 'main' on server 'C:\Users\jswiderek\Desktop\projekt pab\Kiosk.WebAPI.Db\Kiosk.WebAPI.db' is being disposed after spending 0ms reading results.
+2024-06-25 00:41:12.6070|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'main' on server 'C:\Users\jswiderek\Desktop\projekt pab\Kiosk.WebAPI.Db\Kiosk.WebAPI.db'.
+2024-06-25 00:41:12.6070|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'main' on server 'Kiosk.WebAPI.db' (0ms).
+2024-06-25 00:41:12.6332|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'LibraryDbContext' started tracking 'Loan' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-06-25 00:41:12.6332|DEBUG|Microsoft.EntityFrameworkCore.Update|SaveChanges starting for 'LibraryDbContext'.
+2024-06-25 00:41:12.6332|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|DetectChanges starting for 'LibraryDbContext'.
+2024-06-25 00:41:12.6746|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|DetectChanges completed for 'LibraryDbContext'.
+2024-06-25 00:41:12.7659|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'main' on server 'Kiosk.WebAPI.db'.
+2024-06-25 00:41:12.7659|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'main' on server 'C:\Users\jswiderek\Desktop\projekt pab\Kiosk.WebAPI.Db\Kiosk.WebAPI.db'.
+2024-06-25 00:41:12.7659|DEBUG|Microsoft.EntityFrameworkCore.Database.Transaction|Beginning transaction with isolation level 'Unspecified'.
+2024-06-25 00:41:12.7659|DEBUG|Microsoft.EntityFrameworkCore.Database.Transaction|Began transaction with isolation level 'Serializable'.
+2024-06-25 00:41:12.7659|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'.
+2024-06-25 00:41:12.7659|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (0ms).
+2024-06-25 00:41:12.7734|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteReader' (5ms).
+2024-06-25 00:41:12.7734|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 13), @p2='?' (Size = 9), @p3='?' (DbType = Int32), @p4='?' (Size = 4)], CommandType='Text', CommandTimeout='30']
+INSERT INTO "Books" ("BookId", "Author", "ISBN", "StatusOfBook", "Title")
+VALUES (@p0, @p1, @p2, @p3, @p4);
+2024-06-25 00:41:12.7948|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (21ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 13), @p2='?' (Size = 9), @p3='?' (DbType = Int32), @p4='?' (Size = 4)], CommandType='Text', CommandTimeout='30']
+INSERT INTO "Books" ("BookId", "Author", "ISBN", "StatusOfBook", "Title")
+VALUES (@p0, @p1, @p2, @p3, @p4);
+2024-06-25 00:41:12.7948|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Closing data reader to 'main' on server 'C:\Users\jswiderek\Desktop\projekt pab\Kiosk.WebAPI.Db\Kiosk.WebAPI.db'.
+2024-06-25 00:41:12.7948|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader for 'main' on server 'C:\Users\jswiderek\Desktop\projekt pab\Kiosk.WebAPI.Db\Kiosk.WebAPI.db' is being disposed after spending 2ms reading results.
+2024-06-25 00:41:12.7948|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'.
+2024-06-25 00:41:12.7948|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (0ms).
+2024-06-25 00:41:12.7948|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-06-25 00:41:12.7948|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 15), @p2='?' (Size = 9), @p3='?' (DbType = Int32), @p4='?' (Size = 11)], CommandType='Text', CommandTimeout='30']
+INSERT INTO "Books" ("BookId", "Author", "ISBN", "StatusOfBook", "Title")
+VALUES (@p0, @p1, @p2, @p3, @p4);
+2024-06-25 00:41:12.7948|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 15), @p2='?' (Size = 9), @p3='?' (DbType = Int32), @p4='?' (Size = 11)], CommandType='Text', CommandTimeout='30']
+INSERT INTO "Books" ("BookId", "Author", "ISBN", "StatusOfBook", "Title")
+VALUES (@p0, @p1, @p2, @p3, @p4);
+2024-06-25 00:41:12.7948|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Closing data reader to 'main' on server 'C:\Users\jswiderek\Desktop\projekt pab\Kiosk.WebAPI.Db\Kiosk.WebAPI.db'.
+2024-06-25 00:41:12.7948|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader for 'main' on server 'C:\Users\jswiderek\Desktop\projekt pab\Kiosk.WebAPI.Db\Kiosk.WebAPI.db' is being disposed after spending 0ms reading results.
+2024-06-25 00:41:12.7948|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'.
+2024-06-25 00:41:12.7948|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (0ms).
+2024-06-25 00:41:12.7948|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-06-25 00:41:12.7948|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 18), @p2='?' (Size = 3), @p3='?' (Size = 1)], CommandType='Text', CommandTimeout='30']
+INSERT INTO "Clients" ("ClientId", "Email", "FirstName", "LastName")
+VALUES (@p0, @p1, @p2, @p3);
+2024-06-25 00:41:12.7948|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 18), @p2='?' (Size = 3), @p3='?' (Size = 1)], CommandType='Text', CommandTimeout='30']
+INSERT INTO "Clients" ("ClientId", "Email", "FirstName", "LastName")
+VALUES (@p0, @p1, @p2, @p3);
+2024-06-25 00:41:12.7948|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Closing data reader to 'main' on server 'C:\Users\jswiderek\Desktop\projekt pab\Kiosk.WebAPI.Db\Kiosk.WebAPI.db'.
+2024-06-25 00:41:12.7948|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader for 'main' on server 'C:\Users\jswiderek\Desktop\projekt pab\Kiosk.WebAPI.Db\Kiosk.WebAPI.db' is being disposed after spending 0ms reading results.
+2024-06-25 00:41:12.7948|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'.
+2024-06-25 00:41:12.7948|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (0ms).
+2024-06-25 00:41:12.7948|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-06-25 00:41:12.7948|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 18), @p2='?' (Size = 6), @p3='?'], CommandType='Text', CommandTimeout='30']
+INSERT INTO "Clients" ("ClientId", "Email", "FirstName", "LastName")
+VALUES (@p0, @p1, @p2, @p3);
+2024-06-25 00:41:12.7948|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 18), @p2='?' (Size = 6), @p3='?'], CommandType='Text', CommandTimeout='30']
+INSERT INTO "Clients" ("ClientId", "Email", "FirstName", "LastName")
+VALUES (@p0, @p1, @p2, @p3);
+2024-06-25 00:41:12.7948|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Closing data reader to 'main' on server 'C:\Users\jswiderek\Desktop\projekt pab\Kiosk.WebAPI.Db\Kiosk.WebAPI.db'.
+2024-06-25 00:41:12.7948|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader for 'main' on server 'C:\Users\jswiderek\Desktop\projekt pab\Kiosk.WebAPI.Db\Kiosk.WebAPI.db' is being disposed after spending 0ms reading results.
+2024-06-25 00:41:12.7948|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'.
+2024-06-25 00:41:12.7948|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (0ms).
+2024-06-25 00:41:12.7948|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-06-25 00:41:12.7948|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 24), @p2='?' (Size = 6), @p3='?' (Size = 5)], CommandType='Text', CommandTimeout='30']
+INSERT INTO "Employees" ("EmployeeId", "Email", "FirstName", "LastName")
+VALUES (@p0, @p1, @p2, @p3);
+2024-06-25 00:41:12.7948|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 24), @p2='?' (Size = 6), @p3='?' (Size = 5)], CommandType='Text', CommandTimeout='30']
+INSERT INTO "Employees" ("EmployeeId", "Email", "FirstName", "LastName")
+VALUES (@p0, @p1, @p2, @p3);
+2024-06-25 00:41:12.7948|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Closing data reader to 'main' on server 'C:\Users\jswiderek\Desktop\projekt pab\Kiosk.WebAPI.Db\Kiosk.WebAPI.db'.
+2024-06-25 00:41:12.7948|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader for 'main' on server 'C:\Users\jswiderek\Desktop\projekt pab\Kiosk.WebAPI.Db\Kiosk.WebAPI.db' is being disposed after spending 0ms reading results.
+2024-06-25 00:41:12.7948|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'.
+2024-06-25 00:41:12.7948|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (0ms).
+2024-06-25 00:41:12.7948|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-06-25 00:41:12.7948|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 21), @p2='?' (Size = 3), @p3='?' (Size = 5)], CommandType='Text', CommandTimeout='30']
+INSERT INTO "Employees" ("EmployeeId", "Email", "FirstName", "LastName")
+VALUES (@p0, @p1, @p2, @p3);
+2024-06-25 00:41:12.7948|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 21), @p2='?' (Size = 3), @p3='?' (Size = 5)], CommandType='Text', CommandTimeout='30']
+INSERT INTO "Employees" ("EmployeeId", "Email", "FirstName", "LastName")
+VALUES (@p0, @p1, @p2, @p3);
+2024-06-25 00:41:12.8031|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Closing data reader to 'main' on server 'C:\Users\jswiderek\Desktop\projekt pab\Kiosk.WebAPI.Db\Kiosk.WebAPI.db'.
+2024-06-25 00:41:12.8031|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader for 'main' on server 'C:\Users\jswiderek\Desktop\projekt pab\Kiosk.WebAPI.Db\Kiosk.WebAPI.db' is being disposed after spending 0ms reading results.
+2024-06-25 00:41:12.8031|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'.
+2024-06-25 00:41:12.8031|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (0ms).
+2024-06-25 00:41:12.8031|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteReader' (2ms).
+2024-06-25 00:41:12.8031|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = Int32), @p2='?' (DbType = Int32), @p3='?' (DbType = DateTime), @p4='?' (DbType = Int32), @p5='?' (DbType = DateTime), @p6='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+INSERT INTO "Loans" ("LoanId", "BookId", "ClientId", "DueDate", "EmployeeId", "LoanDate", "LoanStatus")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);
+2024-06-25 00:41:12.8031|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (3ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = Int32), @p2='?' (DbType = Int32), @p3='?' (DbType = DateTime), @p4='?' (DbType = Int32), @p5='?' (DbType = DateTime), @p6='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+INSERT INTO "Loans" ("LoanId", "BookId", "ClientId", "DueDate", "EmployeeId", "LoanDate", "LoanStatus")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);
+2024-06-25 00:41:12.8031|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Closing data reader to 'main' on server 'C:\Users\jswiderek\Desktop\projekt pab\Kiosk.WebAPI.Db\Kiosk.WebAPI.db'.
+2024-06-25 00:41:12.8031|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader for 'main' on server 'C:\Users\jswiderek\Desktop\projekt pab\Kiosk.WebAPI.Db\Kiosk.WebAPI.db' is being disposed after spending 0ms reading results.
+2024-06-25 00:41:12.8031|DEBUG|Microsoft.EntityFrameworkCore.Database.Transaction|Committing transaction.
+2024-06-25 00:41:12.8031|DEBUG|Microsoft.EntityFrameworkCore.Database.Transaction|Committed transaction.
+2024-06-25 00:41:12.8031|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'main' on server 'C:\Users\jswiderek\Desktop\projekt pab\Kiosk.WebAPI.Db\Kiosk.WebAPI.db'.
+2024-06-25 00:41:12.8031|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'main' on server 'Kiosk.WebAPI.db' (0ms).
+2024-06-25 00:41:12.8031|DEBUG|Microsoft.EntityFrameworkCore.Database.Transaction|Disposing transaction.
+2024-06-25 00:41:12.8265|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|An entity of type 'Book' tracked by 'LibraryDbContext' changed state from 'Added' to 'Unchanged'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-06-25 00:41:12.8265|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|An entity of type 'Book' tracked by 'LibraryDbContext' changed state from 'Added' to 'Unchanged'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-06-25 00:41:12.8265|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|An entity of type 'Client' tracked by 'LibraryDbContext' changed state from 'Added' to 'Unchanged'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-06-25 00:41:12.8265|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|An entity of type 'Client' tracked by 'LibraryDbContext' changed state from 'Added' to 'Unchanged'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-06-25 00:41:12.8265|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|An entity of type 'Employee' tracked by 'LibraryDbContext' changed state from 'Added' to 'Unchanged'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-06-25 00:41:12.8265|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|An entity of type 'Employee' tracked by 'LibraryDbContext' changed state from 'Added' to 'Unchanged'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-06-25 00:41:12.8265|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|An entity of type 'Loan' tracked by 'LibraryDbContext' changed state from 'Added' to 'Unchanged'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-06-25 00:41:12.8265|DEBUG|Microsoft.EntityFrameworkCore.Update|SaveChanges completed for 'LibraryDbContext' with 7 entities written to the database.
+2024-06-25 00:41:12.8265|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|'LibraryDbContext' disposed.
+2024-06-25 00:41:12.8265|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposing connection to database 'main' on server 'Kiosk.WebAPI.db'.
+2024-06-25 00:41:12.8265|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposed connection to database 'main' on server 'Kiosk.WebAPI.db' (0ms).
+2024-06-25 00:41:13.1471|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider
+2024-06-25 00:41:13.2875|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting
+2024-06-25 00:41:14.0083|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5129
+2024-06-25 00:41:14.0083|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Kiosk.WebAPI.Db
+2024-06-25 00:41:14.0083|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-06-25 00:41:14.0083|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-06-25 00:41:14.0083|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2024-06-25 00:41:14.0083|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2024-06-25 00:41:14.0083|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\jswiderek\Desktop\projekt pab\Kiosk.WebAPI.Db\
+2024-06-25 00:41:14.0083|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started
+2024-06-25 00:41:14.1813|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN4KJR0EBSUA" received FIN.
+2024-06-25 00:41:14.2022|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN4KJR0EBSUA" accepted.
+2024-06-25 00:41:14.2022|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN4KJR0EBSUA" started.
+2024-06-25 00:41:14.2270|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN4KJR0EBSUA" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-06-25 00:41:14.2270|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN4KJR0EBSUA" disconnecting.
+2024-06-25 00:41:14.2270|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN4KJR0EBSUA" stopped.
+2024-06-25 00:41:16.6697|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN4KJR0EBSUB" accepted.
+2024-06-25 00:41:16.6697|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN4KJR0EBSUB" started.
+2024-06-25 00:41:16.7918|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5129/swagger/index.html - -
+2024-06-25 00:41:19.2176|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed.
+2024-06-25 00:41:19.2832|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/index.html'
+2024-06-25 00:41:19.2832|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2024-06-25 00:41:19.2832|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /swagger/index.html does not match an existing file
+2024-06-25 00:41:19.6657|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup is scheduled to include browser refresh script injection.
+2024-06-25 00:41:19.7640|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup was updated to include browser refresh script injection.
+2024-06-25 00:41:19.7640|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN4KJR0EBSUB" completed keep alive response.
+2024-06-25 00:41:19.7737|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5129/swagger/index.html - - - 200 - text/html;charset=utf-8 2990.8853ms
+2024-06-25 00:41:19.9167|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN4KJR0EBSUC" accepted.
+2024-06-25 00:41:19.9167|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN4KJR0EBSUC" started.
+2024-06-25 00:41:19.9167|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5129/_framework/aspnetcore-browser-refresh.js - -
+2024-06-25 00:41:19.9352|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN4KJR0EBSUC" completed keep alive response.
+2024-06-25 00:41:19.9352|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5129/_vs/browserLink - -
+2024-06-25 00:41:19.9352|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5129/_framework/aspnetcore-browser-refresh.js - - - 200 13766 application/javascript;+charset=utf-8 9.7371ms
+2024-06-25 00:41:20.0832|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN4KJR0EBSUB" completed keep alive response.
+2024-06-25 00:41:20.0832|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5129/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 148.1764ms
+2024-06-25 00:41:20.1008|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5129/swagger/favicon-32x32.png - -
+2024-06-25 00:41:20.1008|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/favicon-32x32.png'
+2024-06-25 00:41:20.1008|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2024-06-25 00:41:20.1008|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /swagger/favicon-32x32.png does not match an existing file
+2024-06-25 00:41:20.1283|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN4KJR0EBSUB" received FIN.
+2024-06-25 00:41:20.1399|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN4KJR0EBSUB" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-06-25 00:41:20.1399|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN4KJR0EBSUB" disconnecting.
+2024-06-25 00:41:20.1639|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The file transmission was cancelled|System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at System.Threading.CancellationToken.ThrowIfCancellationRequested()
+   at Microsoft.AspNetCore.Http.SendFileResponseExtensions.SendFileAsyncCore(HttpResponse response, IFileInfo file, Int64 offset, Nullable`1 count, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileContext.SendAsync()
+2024-06-25 00:41:20.1835|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5129/swagger/v1/swagger.json - -
+2024-06-25 00:41:20.3795|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/v1/swagger.json'
+2024-06-25 00:41:20.3795|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2024-06-25 00:41:20.3795|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /swagger/v1/swagger.json does not match an existing file
+2024-06-25 00:41:20.3795|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-06-25 00:41:20.3885|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5129/swagger/favicon-32x32.png - - - 0 628 image/png 287.7639ms
+2024-06-25 00:41:20.4080|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN4KJR0EBSUB" stopped.
+2024-06-25 00:41:20.8769|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN4KJR0EBSUC" completed keep alive response.
+2024-06-25 00:41:20.8769|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5129/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 693.5015ms
+2024-06-25 00:41:48.7957|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5129/Book/1 - -
+2024-06-25 00:41:48.8222|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/Book/1'
+2024-06-25 00:41:48.8222|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'Kiosk.WebAPI.Db.Controllers.BookController.GetBook (Kiosk.WebAPI.Db)' with route pattern 'Book/{id}' is valid for the request path '/Book/1'
+2024-06-25 00:41:48.8222|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'Kiosk.WebAPI.Db.Controllers.BookController.GetBook (Kiosk.WebAPI.Db)'
+2024-06-25 00:41:48.8222|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint.
+2024-06-25 00:41:48.8222|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint.
+2024-06-25 00:41:48.8334|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect.
+2024-06-25 00:41:48.8334|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Kiosk.WebAPI.Db.Controllers.BookController.GetBook (Kiosk.WebAPI.Db)'
+2024-06-25 00:41:48.8971|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetBook", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[Kiosk.WebAPI.Db.Dto.BookDto] GetBook(Int32) on controller Kiosk.WebAPI.Db.Controllers.BookController (Kiosk.WebAPI.Db).
+2024-06-25 00:41:48.8971|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None
+2024-06-25 00:41:48.8971|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None
+2024-06-25 00:41:48.8971|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648), Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2024-06-25 00:41:48.8971|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None
+2024-06-25 00:41:48.8971|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2024-06-25 00:41:48.8971|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller Kiosk.WebAPI.Db.Controllers.BookController (Kiosk.WebAPI.Db)
+2024-06-25 00:41:49.1949|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller Kiosk.WebAPI.Db.Controllers.BookController (Kiosk.WebAPI.Db)
+2024-06-25 00:41:49.2086|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'id' of type 'System.Int32' ...
+2024-06-25 00:41:49.2086|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Attempting to bind parameter 'id' of type 'System.Int32' using the name 'id' in request data ...
+2024-06-25 00:41:49.2086|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Done attempting to bind parameter 'id' of type 'System.Int32'.
+2024-06-25 00:41:49.2086|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'id' of type 'System.Int32'.
+2024-06-25 00:41:49.2086|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'id' of type 'System.Int32' ...
+2024-06-25 00:41:49.3406|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'id' of type 'System.Int32'.
+2024-06-25 00:41:49.3683|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 7.0.17 initialized 'LibraryDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:7.0.17' with options: None
+2024-06-25 00:41:49.4203|DEBUG|Microsoft.EntityFrameworkCore.Query|Compiling query expression: 
+'DbSet<Book>()
+    .FirstOrDefault(e => EF.Property<int>(e, "BookId") == __p_0)'
+2024-06-25 00:41:49.5661|DEBUG|Microsoft.EntityFrameworkCore.Query|Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Book>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Book.BookId (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Book.Author (string) Required, 1], [Property: Book.ISBN (string) Required, 2], [Property: Book.StatusOfBook (StatusOfBook) Required, 3], [Property: Book.Title (string) Required, 4] }
+        SELECT TOP(1) b.BookId, b.Author, b.ISBN, b.StatusOfBook, b.Title
+        FROM Books AS b
+        WHERE b.BookId == @__p_0), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Book>, 
+    Kiosk.WebAPI.Persistance.LibraryDbContext, 
+    False, 
+    False, 
+    True
+)
+    .SingleOrDefault()'
+2024-06-25 00:41:49.5912|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'.
+2024-06-25 00:41:49.5912|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Creating DbConnection.
+2024-06-25 00:41:49.5912|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Created DbConnection. (0ms).
+2024-06-25 00:41:49.5912|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (0ms).
+2024-06-25 00:41:49.5912|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-06-25 00:41:49.5912|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'main' on server 'Kiosk.WebAPI.db'.
+2024-06-25 00:41:49.5912|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'main' on server 'C:\Users\jswiderek\Desktop\projekt pab\Kiosk.WebAPI.Db\Kiosk.WebAPI.db'.
+2024-06-25 00:41:49.5912|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT "b"."BookId", "b"."Author", "b"."ISBN", "b"."StatusOfBook", "b"."Title"
+FROM "Books" AS "b"
+WHERE "b"."BookId" = @__p_0
+LIMIT 1
+2024-06-25 00:41:49.5912|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT "b"."BookId", "b"."Author", "b"."ISBN", "b"."StatusOfBook", "b"."Title"
+FROM "Books" AS "b"
+WHERE "b"."BookId" = @__p_0
+LIMIT 1
+2024-06-25 00:41:49.6061|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'LibraryDbContext' started tracking 'Book' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-06-25 00:41:49.6061|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Closing data reader to 'main' on server 'C:\Users\jswiderek\Desktop\projekt pab\Kiosk.WebAPI.Db\Kiosk.WebAPI.db'.
+2024-06-25 00:41:49.6061|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader for 'main' on server 'C:\Users\jswiderek\Desktop\projekt pab\Kiosk.WebAPI.Db\Kiosk.WebAPI.db' is being disposed after spending 14ms reading results.
+2024-06-25 00:41:49.6061|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'main' on server 'C:\Users\jswiderek\Desktop\projekt pab\Kiosk.WebAPI.Db\Kiosk.WebAPI.db'.
+2024-06-25 00:41:49.6061|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'main' on server 'Kiosk.WebAPI.db' (0ms).
+2024-06-25 00:41:49.6276|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2024-06-25 00:41:49.6370|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter based on Accept header 'text/plain'.
+2024-06-25 00:41:49.6370|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Could not find an output formatter based on content negotiation. Accepted types were (text/plain)
+2024-06-25 00:41:49.6370|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-06-25 00:41:49.6370|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result.
+2024-06-25 00:41:49.6370|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-06-25 00:41:49.6370|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'Kiosk.WebAPI.Db.Dto.BookDto'.
+2024-06-25 00:41:49.6761|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action Kiosk.WebAPI.Db.Controllers.BookController.GetBook (Kiosk.WebAPI.Db) in 762.9735ms
+2024-06-25 00:41:49.6761|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Kiosk.WebAPI.Db.Controllers.BookController.GetBook (Kiosk.WebAPI.Db)'
+2024-06-25 00:41:49.6761|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN4KJR0EBSUC" completed keep alive response.
+2024-06-25 00:41:49.6761|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|'LibraryDbContext' disposed.
+2024-06-25 00:41:49.6761|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposing connection to database 'main' on server 'Kiosk.WebAPI.db'.
+2024-06-25 00:41:49.6761|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposed connection to database 'main' on server 'Kiosk.WebAPI.db' (0ms).
+2024-06-25 00:41:49.6881|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5129/Book/1 - - - 200 - application/json;+charset=utf-8 892.3768ms
